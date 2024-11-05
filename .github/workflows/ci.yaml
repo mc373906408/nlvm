@@ -2,7 +2,7 @@ name: Continuous
 on: [push, pull_request]
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
     steps:
       - name: Install deps
         run: |
